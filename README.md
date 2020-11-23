@@ -1,1 +1,1 @@
-# CECS-2222-ClassPractice
+# CECS-2222-Class
