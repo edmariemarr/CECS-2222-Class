@@ -72,5 +72,11 @@ void NumberArray::display() const {
 	cout << "The lowest value is: " << lowestValue() << endl;
 	cout << "The highest value is: " << highestValue() << endl;
 	cout << "The average is: " << averageNum() << endl;
+	cout << "The array is: " << endl;
+	for (int i = 0; i < size; i++)
+	{
+		cout << array[i] << endl;
+	}
+
 } 
 
