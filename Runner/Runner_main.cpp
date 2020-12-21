@@ -16,7 +16,7 @@ int main() {
 
 	if (runner2.getHours() < 0 || runner2.getMinutes() < 0 || runner2.getSeconds() < 0) { // input validation
 		cout << "Error. Positive values for the times only! Try again." << endl;
-		cin >> runner1;
+		cin >> runner2;
 	}
 
 	cout << "---For the Runner 3---" << endl; // input for Runner 3
