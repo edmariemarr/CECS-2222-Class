@@ -11,8 +11,11 @@ NumberArray::NumberArray(int sizeArray) {
 }
 
 NumberArray::NumberArray(const NumberArray& obj) {
-	array = obj.array;
 	size = obj.size;
+	array = new float[size];
+	for (int i = 0; i < size; i++)
+		array[i] = obj.array[i];
+
 }
 
 NumberArray::~NumberArray() {
