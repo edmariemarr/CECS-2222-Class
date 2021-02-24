@@ -1,4 +1,3 @@
-#include "TwoDimensionalShape.h"
 #include "ThreeDimensionalShape.h"
 #include "Shape.h"
 #include "ThreeDimFigures.h"
@@ -49,69 +48,3 @@ int main() {
 	system("pause");
 	return 0;
 }
-/*
-Input radius of the sphere:
-5.1
-Input radius of the cone:
-3.6
-Input height of the cone:
-4.8
-Input radius of the cylinder:
-10.3
-Input the height of the cylinder:
-6.2
-
-Here are the sphere's properties:
-Radius: 5.1
-Surface Area: 326.851
-Volume: 555.647
-Here are the cone's properties:
-Radius: 3.6
-Height: 4.8
-Surface Area: 67.8584
-Volume: 65.1441
-Here are the cylinder's properties:
-Radius: 10.3
-Height: 6.2
-Surface Area: 401.244
-Volume: 2066.41
-
---- SPHERE ---
-Geometric Figure Name: Sphere
-Color: Pink
-Geometric Figure Name: Sphere
-Color: Pink
-Surface Area: 326.851
-Volume: 555.647
---- CONE ---
-Geometric Figure Name: Cone
-Color: Black
-Geometric Figure Name: Cone
-Color: Black
-Surface Area: 67.8584
-Volume: 65.1441
---- CYLINDER ---
-Geometric Figure Name: Cylinder
-Color: Purple
-Geometric Figure Name: Cylinder
-Color: Purple
-Surface Area: 401.244
-Volume: 2066.41
-Press any key to continue . . .
-ThreeDimFigures destructor
-Geometric Figure Name: Cylinder
-Color: Purple
-Surface Area: 401.244
-Volume: 2066.41
-Press any key to continue . . .
-ThreeDimensionalShape destructor
-Geometric Figure Name: Cylinder
-Color: Purple
-Surface Area: 401.244
-Volume: 2066.41
-Press any key to continue . . .
-Shape destructor
-Geometric Figure Name: Cylinder
-Color: Purple
-Press any key to continue . . .
-*/
